@@ -32,6 +32,7 @@ cd /opt/sonarqube-9.3.0.51899/bin/linux-x86-64/
  sleep 1
 
  #Connect to SonaQube
+sudo systemctl start firewalld
 sudo firewall-cmd --permanent --add-port=9000/tcp
 sudo firewall-cmd --reload
 echo "Connected to SonarQube"
