@@ -8,6 +8,7 @@ su - vagrant
 sudo yum update -y
 sudo yum install java-11-openjdk-devel -y
 sudo yum install java-11-openjdk -y
+echo "Java installed"
 sleep 1
 
 #Step 2: Download SonarQube latest versions on your server
